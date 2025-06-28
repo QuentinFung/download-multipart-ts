@@ -22,21 +22,21 @@
 
 ### 1. 下載或建立腳本
 
-儲存為 `download_and_merge_ts.sh`。
+儲存為 `download.sh`。
 
 ```bash
-chmod +x download_and_merge_ts.sh
+chmod +x download.sh
 ```
 
 ### 2. 執行腳本
 
 ```bash
-./download_and_merge_ts.sh "<TS file URL>"
+./download.sh "<TS file URL>"
 ```
 
 🔗 範例：
 ```bash
-./download_and_merge_ts.sh "https://lts.uk.prod.citnow.com/.../output-1200k1.ts"
+./download.sh "https://lts.uk.prod.citnow.com/.../output-1200k1.ts"
 ```
 
 完成後會產生檔案：
@@ -64,7 +64,7 @@ sudo apt update && sudo apt install curl -y
 
 ```
 project/
-├── download_and_merge_ts.sh
+├── download.sh
 ├── output-1200k.ts        ← 合併後的影片
 ```
 
